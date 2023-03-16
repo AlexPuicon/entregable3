@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Location = (name, type, dimension, residents) => {
+const Location = ({ name, type, dimension, residents }) => {
   return (
     <section>
       <h2>{name}</h2>
